@@ -1,0 +1,122 @@
+body{
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+p{
+    color:rgb(0, 0, 0);
+    font-size: 28px;
+    position: relative;
+}
+.wrapper{
+    text-align:center;
+    vertical-align:top;
+  }
+  .checkbox{
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    height:auto;
+    width:200px;
+    display:inline-block;
+  }
+  .checkbox img{
+    height:200px;
+    width:200px;
+    display:block;
+  }
+  .checkbox span{
+    margin:5px;
+    display:block;
+  }
+  .checkbox label{
+    display:block;
+    cursor:pointer;
+    position:relative;
+  }
+  .checkbox label:before{
+    content:"";
+    display:block;
+    width:50px;
+    height:50px;
+    margin:auto;
+    position:absolute;
+    left:0;
+    right:0;
+    top:75px;
+    background-color:transparent;
+    border-radius:50px;
+  }
+  .checkbox label:after{
+    content:"";
+    display:block;
+    width:26px;
+    height:12px;
+    margin:auto;
+    position:absolute;
+    left:0;
+    right:0;
+    top:88px;
+    border-left:5px solid transparent;
+    border-bottom:5px solid transparent;
+    transform:rotate(-45deg);
+  }
+  .checkbox input[type=checkbox]{
+    display:none;
+  }
+  .checkbox input[type=checkbox]:checked + label:before{
+    background-color:#8dc3ff;
+  }
+  .checkbox input[type=checkbox]:checked + label:after{
+    border-color:#fff;
+  }
+  h1{
+    position: relative;
+  }
+  table{
+    font-family: Calibri; 
+    color:white; 
+    font-size: 15pt; 
+    font-style: normal;
+    font-weight: bold;
+    text-align:start; 
+    background: #136a8a;
+    background: 
+    -webkit-linear-gradient(to right, #267871, #136a8a);
+    background: 
+    linear-gradient(to right, #267871, #136a8a);
+    margin: auto;
+    border-collapse: collapse; 
+    border: 2px solid rgb(255, 255, 255)
+  }
+  table.inner{
+    border: 0px
+  }
+  .knopka01 {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px rgba(255,255,255,.2), 0 -1px rgba(0,0,0,.8);
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    background: rgb(28,107,114) radial-gradient(150% 100% at 50% 5px, rgba(255,255,255,.2), rgba(0,0,0,0));
+    box-shadow: inset rgba(0,0,0,.6) 0 -2px 5px, inset rgba(252,255,255,.7) 0 2px 5px, rgba(0,0,0,.8) 0 2px 5px -1px;
+    color: rgb(0,79,86);
+    user-select: none;
+  } 
+  .knopka01:hover {
+    color: rgb(0,59,66);
+    cursor: pointer;
+  }
+  .knopka01:active {
+    padding-bottom: 1px;
+    box-shadow:
+     inset rgba(0,0,0,1) 0 1px 3px,
+     inset rgba(0,0,0,.6) 0 -2px 5px,
+     inset rgba(252,255,255,.7) 0 2px 5px,
+     0 1px rgba(255,255,255,.08);
+    color: rgb(128,207,214);
+  }

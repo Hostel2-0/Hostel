@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="../css/registr.css">
+    <title>Регістрація студента</title>
+  </head>
+ 
+  <body>
+  <header>
+      <h1 align="center">Регістрація студента</h1>
+    </header>
+
+    <!----- Університети -------------------------------------------------------->
+    <p>Виберіть університет:</p>
+    <div class="wrapper">
+        <div class="checkbox">
+        <input id="checkbox" type="checkbox" name="checkbox" value="checkbox">
+        <label for="checkbox">
+        <img src='../jpg/kpi.png'/>
+        <span>КПІ ім. Ігоря Сікорського</span>
+        </label>
+    </div>
+      
+        <div class="checkbox">
+      <input id="checkbox2" type="checkbox" name="checkbox" value="checkbox2">
+      <label for="checkbox2">
+        <img src='../jpg/nau.png'/>
+        <span>НАУ</span>
+      </label>
+        </div>
+      
+        <div class="checkbox">
+      <input id="checkbox3" type="checkbox" name="checkbox" value="checkbox3">
+      <label for="checkbox3">
+        <img src='../jpg/kneu.gif'/>
+        <span>КНЕУ</span>
+      </label>
+      </div>
+      
+        <div class="checkbox">
+      <input id="checkbox4" type="checkbox" name="checkbox" value="checkbox4">
+      <label for="checkbox4">
+        <img src='../jpg/knukim.svg'/>
+        <span>КНУКіМ</span>
+      </label>
+      </div>
+      
+        <div class="checkbox">
+      <input id="checkbox5" type="checkbox" name="checkbox" value="checkbox5">
+      <label for="checkbox5">
+        <img src='../jpg/naukma.png'/>
+        <span>НаУКМА</span>
+      </label>
+      </div>
+      
+        <div class="checkbox">
+      <input id="checkbox6" type="checkbox" name="checkbox" value="checkbox6">
+      <label for="checkbox6">
+        <img src='../jpg/nmu.png'/>
+        <span>НМУ</span>
+      </label>
+      </div>
+      
+        <div class="checkbox">
+      <input id="checkbox7" type="checkbox" name="checkbox" value="checkbox7">
+      <label for="checkbox7">
+        <img src='../jpg/nubip.png'/>
+        <span>НУБіП</span>
+      </label>
+      </div>
+      
+        <div class="checkbox">
+      <input id="checkbox8" type="checkbox" name="checkbox" value="checkbox8">
+      <label for="checkbox8">
+        <img src='../jpg/taras.png'/>
+        <span>КНУ імені Тараса Шевченка</span>
+      </label>
+      </div>
+    
+    <table align="center" cellpadding = "10">
+     <!----- По-батькові ---------------------------------------------------------->
+    <tr>
+    <td>Факульет</td>
+    <td><input type="text" name="Fakulte_Name" maxlength="30"/>
+    </td>
+    </tr>
+    <!----- Прізвище ---------------------------------------------------------->  
+    <tr>
+    <td>Прізвище</td>
+    <td><input type="text" name="Last_Name" maxlength="30"/>
+    </td>
+    </tr>
+    <!----- Ім'я ---------------------------------------------------------->
+    <tr>
+    <td>Ім'я</td>
+    <td><input type="text" name="First_Name" maxlength="30"/>
+    </td>
+    </t>
+     
+    <!----- По-батькові ---------------------------------------------------------->
+    <tr>
+    <td>По-батькові</td>
+    <td><input type="text" name="Midle_Name" maxlength="30"/>
+    </td>
+    </tr>
+     
+    <!----- День народження -------------------------------------------------------->
+    <tr>
+    <td>День народження</td>
+     
+    <td>
+    <select name="Birthday_day" id="Birthday_Day">
+    <option value="-1">День:</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+     
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+     
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+    <option value="16">16</option>
+    <option value="17">17</option>
+    <option value="18">18</option>
+    <option value="19">19</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+     
+    <option value="22">22</option>
+    <option value="23">23</option>
+    <option value="24">24</option>
+    <option value="25">25</option>
+    <option value="26">26</option>
+    <option value="27">27</option>
+    <option value="28">28</option>
+    <option value="29">29</option>
+    <option value="30">30</option>
+     
+    <option value="31">31</option>
+    </select>
+     
+    <select id="Birthday_Month" name="Birthday_Month">
+    <option value="-1">Місяць:</option>
+    <option value="January">Січень</option>
+    <option value="February">Лютий</option>
+    <option value="March">Березень</option>
+    <option value="April">Квітень</option>
+    <option value="May">Травень</option>
+    <option value="June">Червень</option>
+    <option value="July">Липень</option>
+    <option value="August">Серпень</option>
+    <option value="September">Вересень</option>
+    <option value="October">Жовтень</option>
+    <option value="November">Листопад</option>
+    <option value="December">Грудень</option>
+    </select>
+     
+    <select name="Birthday_Year" id="Birthday_Year">
+     
+    <option value="-1">Рік:</option>
+    <option value="2012">2012</option>
+    <option value="2011">2011</option>
+    <option value="2010">2010</option>
+    <option value="2009">2009</option>
+    <option value="2008">2008</option>
+    <option value="2007">2007</option>
+    <option value="2006">2006</option>
+    <option value="2005">2005</option>
+    <option value="2004">2004</option>
+    <option value="2003">2003</option>
+    <option value="2002">2002</option>
+    <option value="2001">2001</option>
+    <option value="2000">2000</option>
+     
+    <option value="1999">1999</option>
+    <option value="1998">1998</option>
+    <option value="1997">1997</option>
+    <option value="1996">1996</option>
+    <option value="1995">1995</option>
+    <option value="1994">1994</option>
+    <option value="1993">1993</option>
+    <option value="1992">1992</option>
+    <option value="1991">1991</option>
+    <option value="1990">1990</option>
+     
+    <option value="1989">1989</option>
+    <option value="1988">1988</option>
+    <option value="1987">1987</option>
+    <option value="1986">1986</option>
+    <option value="1985">1985</option>
+    <option value="1984">1984</option>
+    <option value="1983">1983</option>
+    <option value="1982">1982</option>
+    <option value="1981">1981</option>
+    <option value="1980">1980</option>
+    </select>
+    </td>
+    </tr>
+     <!----- Батько  ---------------------------------------------------------->
+    <tr>
+    <td>Батько</td>
+    <td><input type="text" name="Father_Name" maxlength="100" /> Номер телефону<input type="text" name="Mobile_Number" maxlength="12" />
+    </td>
+    </tr>
+    <!----- Мати  ---------------------------------------------------------->
+    <tr>
+    <td>Мати</td>
+    <td><input type="text" name="Mother_Name" maxlength="100" /> Номер телефону<input type="text" name="Mobile_Number" maxlength="12" /></td>
+    </tr>
+    <!----- Почта  ---------------------------------------------------------->
+    <tr>
+    <td>Почта</td>
+    <td><input type="text" name="Email_Id" maxlength="100" /></td>
+    </tr>
+     
+    <!----- Номер телефону ---------------------------------------------------------->
+    <tr>
+    <td>Номер телефону</td>
+    <td>
+    <input type="text" name="Mobile_Number" maxlength="12" />
+    </td>
+    </tr>
+     
+    <!----- Стать----------------------------------------------------------->
+    <tr>
+    <td>Стать</td>
+    <td>
+    М<input type="radio" name="Gender" value="Male" />
+    Ж <input type="radio" name="Gender" value="Female" />
+    </td>
+    </tr>
+     <!----- Фото----------------------------------------------------------->
+    <tr>
+        <td>Загрузка фото</td>
+    <td><input type="file" id="file" name="file" multiple></td>
+        </td>
+        </tr>
+    </table>
+    <input type="button" class="knopka01" value="Зареєструватись" onclick="location.href='../cabinet.html'">
+
+
+      
+  </body>
+</html>
