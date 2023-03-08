@@ -12,11 +12,11 @@
 			<li class="logo">
 				<img  src='../admin-panel/png/logo.png'/>
 			</li>
-            <li><a href="../admin-panel/admin.html">Панель <img src='../admin-panel/png/dashboard.png'style="width:23px;"/></a> </li>
-			<li><a href="../admin-panel/hostels.html">Гуртожитки <img src='../admin-panel/png/hotel.png'style="width:23px;"/></a> </li>
-			<li><a href="#">Кімнати <img src='../admin-panel/png/beds.png'style="width:23px;"/></a> </li>
-			<li><a href="#">Оплата <img src='../admin-panel/png/money.png'style="width:23px;"/></a></li>
-			<li><a href="#">Студенти <img src='../admin-panel/png/group.png'style="width:23px;"/></a> </li>
+            <li><a href="../admin-panel/admin.php">Панель <img src='../admin-panel/png/dashboard.png'style="width:23px;"/></a> </li>
+			<li><a href="../admin-panel/hostels.php">Гуртожитки <img src='../admin-panel/png/hotel.png'style="width:23px;"/></a> </li>
+			<li><a href="../admin-panel/rooms.php">Кімнати <img src='../admin-panel/png/beds.png'style="width:23px;"/></a> </li>
+			<li><a href="../admin-panel/pays.php">Оплата <img src='../admin-panel/png/money.png'style="width:23px;"/></a></li>
+			<li><a href="../admin-panel/student.php">Студенти <img src='../admin-panel/png/group.png'style="width:23px;"/></a> </li>
 			<li><a href="../home.html">Вихід <img src='../admin-panel/png/exit.png'style="width:23px;"/></a> </li>
 		</ul>
     </nav>
@@ -25,10 +25,16 @@
             <div class="Nau1">
                 <h4 style="text-align:center">Нау Гуртожиток №1</h4>
             <img src='../admin-panel/png/hostels_nau/nau1.jpg' style="width:180px;height: 150px; margin-left: 50px; "/><br>
-            
-            <a href="#" class="myButton"><img src='../admin-panel/png/covid-19.png'style="width:23px;"/></a>
-            <a href="#" class="myButton"><img src='../admin-panel/png/close.png'style="width:23px;"/></a>
-            <a href="#" class="myButton"><img src='../admin-panel/png/open.png'style="width:23px;"/></a>
+            <div class="status-container">
+            <h7>Статуc:</h7>
+            <div id="status-rectangle" class="online">
+            </div>
+            </div>
+            <a  class="myButton" onclick="setStatus('covid-19')"><img src='../admin-panel/png/covid-19.png'style="width:23px;"/></a>
+            <a  class="myButton" onclick="setStatus('offline')"><img src='../admin-panel/png/close.png'style="width:23px;"/></a>
+            <a  class="myButton" onclick="setStatus('online')"><img src='../admin-panel/png/open.png'style="width:23px;"/></a>
+            <script src="../admin-panel/status.js">
+            </script> 
             </div>
             <div class="Nau3">
                 <h4 style="text-align:center">Нау Гуртожиток №3</h4>
@@ -418,7 +424,7 @@
             </div>
             <div class="Nubip8">
                 <h4 style="text-align:center">НУБіП Гуртожиток №8</h4>
-                <img src='../admin-panel/png/hostels_nubip/nubip8.jpeg' style="width:180px; height: 150px margin-left: 50px;;"/><br>
+                <img src='../admin-panel/png/hostels_nubip/nubip8.jpeg' style="width:180px; height: 150px; margin-left: 50px;"/><br>
                 <a href="#" class="myButton"><img src='../admin-panel/png/covid-19.png'style="width:23px;"/></a>
             <a href="#" class="myButton"><img src='../admin-panel/png/close.png'style="width:23px;"/></a>
             <a href="#" class="myButton"><img src='../admin-panel/png/open.png'style="width:23px;"/></a>

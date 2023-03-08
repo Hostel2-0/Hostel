@@ -40,3 +40,25 @@
 .h4{
     text-align:center;
 }
+
+
+.status-container {
+	display: flex;
+	align-items: center;
+  }
+  #status-rectangle {
+	width: 80px;
+	height: 20px;
+	border-radius: 4px;
+	margin-left: 5px;
+	background: linear-gradient(180deg, #1CD91C 0%, #0EAE0E 100%);
+  }
+  
+  #status-rectangle.offline {
+	background: linear-gradient(180deg, #F54842 0%, #D40802 100%);
+  }
+  
+  #status-rectangle.waiting {
+	background: linear-gradient(180deg, #F5D742 0%, #D4A802 100%);
+  }
+  

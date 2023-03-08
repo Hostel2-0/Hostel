@@ -1,4 +1,6 @@
+
 <!DOCTYPE html>
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -11,33 +13,34 @@
 			<li class="logo">
 				<img src='../admin-panel/png/logo.png'/>
 			</li>
-			<li><a href="../admin-panel/admin.html">Панель <img src='../admin-panel/png/dashboard.png'style="width:23px;"/></a> </li>
-			<li><a href="../admin-panel/hostels.html">Гуртожитки <img src='../admin-panel/png/hotel.png'style="width:23px;"/></a> </li>
-			<li><a href="#">Кімнати <img src='../admin-panel/png/beds.png'style="width:23px;"/></a> </li>
-			<li><a href="#">Оплата <img src='../admin-panel/png/money.png'style="width:23px;"/></a></li>
-			<li><a href="#">Студенти <img src='../admin-panel/png/group.png'style="width:23px;"/></a> </li>
+			<li><a href="../admin-panel/admin.php">Панель <img src='../admin-panel/png/dashboard.png'style="width:23px;"/></a> </li>
+			<li><a href="../admin-panel/hostels.php">Гуртожитки <img src='../admin-panel/png/hotel.png'style="width:23px;"/></a> </li>
+			<li><a href="../admin-panel/rooms.php">Кімнати <img src='../admin-panel/png/beds.png'style="width:23px;"/></a> </li>
+			<li><a href="../admin-panel/pays.php">Оплата <img src='../admin-panel/png/money.png'style="width:23px;"/></a></li>
+			<li><a href="../admin-panel/student.php">Студенти <img src='../admin-panel/png/group.png'style="width:23px;"/></a> </li>
 			<li><a href="../home.html">Вихід <img src='../admin-panel/png/exit.png'style="width:23px;"/></a> </li>
 		</ul>
 	</nav>
 	<div class="wrapper">
+		
 		<div class="container">
             <div class="hostels">
 				<img src='../admin-panel/png/hotel.png' style="width:250px; margin-left: 50px"/><br>
-				<h4 style="margin-left: 35px ;">Кількість гуртожитків: 82</h4>
-
+				<h4 style="margin-left: 35px ;">Кількість гуртожитків:  </h4>
 			</div>
             <div class="rooms">
 				<img src='../admin-panel/png/beds.png' style="width:250px; margin-left: 50px"/>
-				<h4 style="margin-left: 35px ;"">Кількість кімнат</h4>
+				<h4 style="margin-left: 35px ;"">Кількість кімнат: </h4>
 			</div>
             <div class="payments">
 				<img src='../admin-panel/png/money.png' style="width:250px; margin-left: 50px ;""/>
-				<h4 style="margin-left: 35px ;"">Середня ціна за місяць</h4>
+				<h4 style="margin-left: 35px ;"">Середня ціна за місяць: </h4>
 			</div>
             <div class="students">
 				<img src='../admin-panel/png/group.png' style="width:250px; margin-left: 50px"/>
-				<h4 style="margin-left: 35px ;"">Кількість студентів</h4>
+				<h4 style="margin-left: 35px ;"">Кількість студентів: </h4>
 			</div>
+			
 			<div class="canvas"> 
 				<div class="legend">
 					<p class="title">Статистика:</p>    
